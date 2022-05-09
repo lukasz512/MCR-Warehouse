@@ -1,14 +1,9 @@
 # MCR-Warehouse
 
-## Budowanie projektu
+Front - Vue.js v2.0, Vuetify 
+API & DB - Firebase
 
-``` bash
-# instalacja zależności
-$ yarn
+The application allows the user to choose the products he is interested in from among 2 warehouses, and then place an order.
+The supplier as well as the customer receive appropriate e-mails with the quantities and products listed.
 
-# serwer deweloperski na https://{nazwa_projektu}.test.ideo.pl:3000
-$ yarn dev
-
-# uruchomienie produkcyjne na http://{nazwa_projektu}.test.ideo.pl:3000
-$ yarn build
-$ yarn start
+The application is also available in a mobile version.
